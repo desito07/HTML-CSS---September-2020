@@ -1,0 +1,41 @@
+button {
+    color: black;
+    border: none;
+    padding:5px 10px;
+    border-radius: 3px;
+  }
+  #blue-button {
+    background-color: rgb(61, 117, 223);
+    color: white;
+  } 
+
+  #blue-button.big-button:hover {
+    border: 1px solid #000;
+  }
+
+  #blue-button:hover {
+    box-shadow: 0 0 4px #000;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgba(192, 14, 14, 0.972);
+  }  
+
+  p {
+    margin-top: 20px;
+    text-align: center;        
+  }
+
+  #paragraph-early-life {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .big-button {
+    padding: 10px 20px;
+  }
+
+  p.justify {
+    text-align: justify;
+  }
