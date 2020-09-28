@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap'); */
+
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+
+/* @font-face {
+    font-family: "Open Sans";
+    src: url('./Open_Sans/OpenSans-Regular.woff') format('woff');
+} */
+
+html {
+    font-family: 'Baloo Tammudu 2';
+    /* font-size: 25px; */
+}
+
+.content-wrapper {
+    background: lightblue;
+    border-radius: 12px;
+    padding: 20px;    
+    word-break: normal;
+    box-shadow: -121px 28px 136px 35px rgba(0,0,0,0.69);
+    
+}
+
+.content-text {
+    text-shadow: 8px 8px 4px rgba(150, 150, 150, 1);
+    color: #737373;
+}
+
+.content-button {
+    border-radius: 30px;
+    padding: 10px;
+    background: darkblue;
+    color: white;
+    outline: none;
+}
+
+/* p {
+    font-weight: 800;
+} */
+
+
+/* .content {
+   font-size: 30px; 
+}
+
+.content .content-text{
+    font-size: 1em;
+}
+
+.typography {
+    font-family: 'Open Sans', 'Georgia';
+} */

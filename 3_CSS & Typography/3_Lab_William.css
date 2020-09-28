@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('C:/Users/DESI/Documents/JavaScript/HTML & CSS/3_CSS & Typography/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 40px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
