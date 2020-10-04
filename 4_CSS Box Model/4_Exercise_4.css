@@ -1,0 +1,12 @@
+html {
+    font-family: Helvetica, sans-serif;    
+}
+
+h1, nav, li {
+    display: inline-block; 
+}
+
+nav, li {
+    color: #4FAA60; 
+    padding: 10px;
+}
