@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    /* display: inline-flex;
+    height: 3em;
+    width: 120px; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+
+.item {
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;    
+}
+
+.first-item {
+    background: lightblue;
+    align-self: flex-start;
+}
+
+.second-item {
+    background: red;
+    order: 2;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.third-item {
+    background: yellow;
+    align-self: flex-start;
+}
+
