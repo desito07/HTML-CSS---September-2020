@@ -1,37 +1,24 @@
 body {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    background-color: #EEEEEE;
     padding: 50px;
-    background-color: rgb(238, 238, 238);
-}
+} 
 
-header, 
+header,
 main, 
 aside,
 footer {
-    background-color: rgb(255, 255, 255);
-    border: 3px #8080806b;
-    margin: 10px;
-    padding: 20px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 30px;
+    border: 3px;
+    border-radius: 10px;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.55);
-    border-radius: 5px;
 }
 
 .container {
     display: flex;
-}
-
-header {
-    min-height: 200px;
-}
-
-main,
-aside {
-    min-height: 400px;
-}
-
-footer {
-    min-height: 100px;
 }
 
 main {
@@ -42,4 +29,15 @@ aside {
     flex: 1 1 auto;
 }
 
+header {
+    min-height: 200px;
+}
 
+main,
+aside {
+    min-height: 500px;
+}
+
+footer {
+    min-height: 150px;
+}
