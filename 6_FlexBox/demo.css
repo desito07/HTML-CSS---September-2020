@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    height: 100vh;
+    border: 1px solid;
+}
+
+.item {
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.first-item {
+    background: pink;
+}
+
+.second-item {
+    background: red;
+}
+
+.third-item {
+    background: blue;
+    order: 1;
+    flex-grow: 1;
+}
