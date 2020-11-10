@@ -1,22 +1,25 @@
 html {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-}
-
-h2 {
-    font-family: Georgia, serif;
-    font-size: 1em;
-    line-height: 1.2; 
+    background-color: #FFFFFF;
 }
 
 section {
-    display: flex;    
-    justify-content: space-between;
+    display: flex;
     max-width: 70vw;
-    margin: 0;
+    justify-content: space-between;
+    margin: 50px auto;    
+    padding: 70px;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    line-height: 1.2;    
 }
 
 article {
-   margin: 2em;
+    padding: 35px;
 }
+
