@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+div.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.55);
+    bottom: none;  
+    padding: 15px; 
+    flex-basis: 20%; 
+    align-self: center;
+}
+
