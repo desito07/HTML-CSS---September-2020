@@ -1,0 +1,65 @@
+body {
+    margin: 50px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+h3, p, aside {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.reminders {
+    flex-basis: 20%;
+}
+
+.workweek {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    border-right: 0;
+    min-height: 4em;
+}
+
+.weekdays h3 {
+    border-top: 0;
+}
+
+.workweek .days{    
+    flex-grow: 1;
+}
+
+.workweek .week {
+    display: flex;
+}
+
+.week p {
+    padding-bottom: 90px;
+    flex-grow: 1;
+    border-top: 0;
+    border-right: 0;
+}
+
+.weekdays {
+    display: flex;
+}
+
+.weekdays .days {
+    flex-grow: 1; 
+    flex-basis: 100%;   
+}
+
+.weekdays .week {
+    display: flex;
+}
+
+.special {
+    border-top: 0; 
+    flex-basis: 26%;
+}
+
+
