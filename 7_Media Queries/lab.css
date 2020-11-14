@@ -1,0 +1,51 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: pink;
+    color: black;
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+/* @media screen and (max-width: 600px) {
+    body {
+        background: red;
+    }
+} */
+
+/* @media all and (max-width:600px) {
+    body {
+        background-color: red;
+        font-size: 45px;
+    }
+} */
+
+@media (orientation:landscape) {
+    body { 
+        background-color: blue;
+    }
+} 
+
+a:hover {
+    background: green;
+}
+
+@media (hover: hover){
+  a {
+    background-color: yellow;
+  }  
+}
+
+@media screen and (min-width: 400px) and (orientation:landscape) {
+    body {
+        background: blueviolet;
+    }
+}
