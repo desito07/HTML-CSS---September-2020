@@ -1,0 +1,40 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    background-color: #EBEBEB;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul {    
+    list-style-type: none;
+    display: flex; 
+    vertical-align: middle; 
+    background-color: white; 
+    padding-left: 0;
+    border-radius: 8px;   
+}
+
+nav li {
+    padding: 10px; 
+    background-color: #2D2D2D;
+    color: #CDCDCD;
+    margin: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.menu { 
+    display: none;
+}

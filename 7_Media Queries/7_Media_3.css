@@ -1,0 +1,28 @@
+@media all and (max-width: 600px) {
+    h1 {
+        text-align: center;
+    }  
+}
+
+@media all and (max-width: 900px) {
+    header,
+    header ul { 
+        flex-direction: column;        
+    }
+    
+    header ul {
+        margin:0; 
+        border-top: 2px solid;       
+    }
+
+    nav li, 
+    nav ul {
+        border-radius: 0;
+    }
+    .menu { 
+        display: block;
+        text-align: center;
+        margin: 10px auto 25px auto;
+        font-weight: bold;
+    }      
+}
