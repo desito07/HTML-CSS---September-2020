@@ -1,0 +1,61 @@
+@import "https://fonts.googleapis.com/css?family=Lato";
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+
+body {
+    margin: 50px 0px; 
+    font-family: 'Lato', sans-serif;   
+}
+
+h3 { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.certificates {
+    background-color: #306085;
+    color: #DDE5EB;
+    display: flex;
+    padding: 46px 84px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 21px;
+}
+
+.certificates-content::before {
+    content: url(./images/dots.svg);
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 255px;
+}
+
+.certificates-images {
+    display: flex;       
+}   
+
+.certificates-image img {
+    margin: 20px;
+    position: relative;
+    z-index: 1;      
+}
+
+.certificates-image:nth-child(2)::after {
+    content: url(./images/arrow.svg);
+    position: absolute;
+    margin-left: -272px;
+    margin-top: 0px;
+    z-index: 0;      
+}
+
+.certificates-image:nth-child(1)::after {
+    content: url(./images/dots.svg);
+    position: absolute;
+    margin-left: -67px;
+    margin-top: -22px;
+    z-index: 0;
+}
+
+.certificates-text-bottom {
+    font-style: italic;
+    font-size: 16px;
+    color: #96AFC2;
+}
