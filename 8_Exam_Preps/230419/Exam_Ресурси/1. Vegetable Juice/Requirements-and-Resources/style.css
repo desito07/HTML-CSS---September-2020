@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');  
+
+body 
+   *{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', sans-serif;
+    box-sizing: border-box;
+}
+
+.product-card {
+    width: 848px;
+    height: 520px;
+    margin: 75px auto 70px auto;
+    background-size: auto;    
+    box-shadow: 0px 0px 32px -6px black;
+    display: flex;
+    justify-content: center;
+    /* background-image: url(./image/image.jpg);
+    background-repeat: repeat-y; */
+}
+
+.product-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    flex: 0 1 50%;
+    padding: 35px 35px 30px 32px;
+}
+
+.product-info h2 {
+    text-align: center;
+    border-bottom: dotted 2px #488401;
+    font-size: 30px;
+}
+
+.serves {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.ingredients { 
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.ingredients span {
+    font-weight: 600;
+    color: #488401;
+    font-size: 15px;
+}
+
+.description {
+    margin-top: 45px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.calories table {
+    width: 100%;
+    border: solid, 1px #488401;
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.calories table td, th {
+    border: solid 1px #488401;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 50%;
+    overflow: hidden;   
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
