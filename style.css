@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body,
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+body { 
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-us {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.about-us-contects,
+.about-us-img {
+  display: inline-block;
+  margin: 50px 10px;
+}
+
+.about-us-contects {
+  width: 48%;
+}
+
+.about-us-contects h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.about-us-contects > p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.about-us-contects-card:nth-of-type(1) {
+  margin-top: 25px;
+}
+
+.about-us-contects-card {
+  margin-bottom: 14px;  
+}
+
+.about-us-contents-card-content {
+  margin-left: 15px;
+}
+
+.about-us-contects-card-img-wrapper {
+  margin-right: -55px;
+}
+
+.about-us-contects-card:nth-of-type(2) {
+  margin-left: 5px;
+}
+
+.about-us-contects-card-img-wrapper,
+.about-us-contects-card-content {
+  display: inline-block;
+  vertical-align: middle;  
+}
+
+.about-us-contects-card-img-wrapper img {
+  width: 45%;
+  height: auto;
+}
+
+.about-us-contects-card-content h4 {
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-us-img {
+  width: 47%;
+  float: right;
+}
+
+.about-us-img img {
+  width: 100%;
+  height: auto;
+}
